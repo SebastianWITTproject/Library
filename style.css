@@ -1,0 +1,132 @@
+body
+{
+    background-color: #C7C4B9;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header
+{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5d5d5bbd;
+    box-shadow:  3px 5px 6px #605e5e
+    
+
+}
+
+.header > p 
+{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.addbtn
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.formToggle
+{
+    background-color: grey;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 26vh;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 32vh;
+    height: 50vh;
+    margin-top: 20vh;
+}
+
+#form > button
+{
+    height: 7vh;
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: aqua;
+}
+#form > button:hover
+{
+    opacity: 0.7;
+}
+
+#form > div
+{
+    height: 7vh;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+
+#title
+{
+    margin-top: 6vh;
+}
+
+.el
+{
+    margin: 1vh;
+    height: 5vh;
+}
+
+
+.booksel
+{
+    font-size: 30px;
+    font-family: sans-serif;
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
+.booksel:hover
+{
+    background-color: grey;
+    opacity: 0.7;
+}
+
+
+#books
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book
+{
+    display: flex;
+    padding: 3vh;
+    gap: 3vh;
+    flex-direction: column;
+    min-height: 40vh;
+    min-width: 30vh;
+    margin: 4vh;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);(0, 0, 0) 99.4%);
+    text-align: center;
+    color: white;
+}
+
+.book > button
+{
+    height: 8vh;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 768px) {
+    #books
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+  }
